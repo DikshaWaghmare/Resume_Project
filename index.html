@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My-Resume</title>
+  <link rel="stylesheet" href="./CSS/style.css" type="text/css" />
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    
+  <!-- for bootstrap icon -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+  />
+</head>
+
+<body >
+  <header style="background-image: linear-gradient(#2e2e75,#990303);" >
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid ">
+        <a class="navbar-brand" href="#"><i class="bi bi-file-earmark-person fs-1 text-white"></i></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#edu">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#pr">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#Achivements">Achivements</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+
+    <!-- Profile part -->
+      <div class="container ">
+        <h1 class="text-center bg-info mt-3 p-2" id="projects" style="box-shadow: 0px 0px 5px black; border-radius: 8px;"> Profile!</h1>
+        <div class="row justify-content-center text-left p-3 profile">
+          <div class="col-md-6 col-sm-12 img-side">
+            <img class="my-img m-2 mx-auto d-block" src="./Images/my-img (1).jpg" alt="Diksha Waghmare" />
+
+            <div class="d-flex profile-link">
+              <a href="http://www.linkedin.com/in/diksha-waghmare" target="_blank" class="container-social-media m-3">
+                <img class="social-media-icon" src="./images/linkedin.png" alt="Linkedin" />
+              </a>
+              <a href="https://github.com/DikshaWaghmare" target="_blank" class="container-social-media m-3">
+                <img class="social-media-icon" src="./images/github.png" alt="github" />
+              </a>
+              <a href="mailto:dikshaw44@gmail.com" target="_blank" class="container-social-media m-3">
+                <img class="social-media-icon" src="./images/mail.png" alt="mail" />
+              </a>
+              <a href="tel:+91-7447221055" target="_blank" class="container-social-media m-3" alt="number">
+                <img class="social-media-icon" src="./images/call.png" />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12 pt-3 contend-side">
+          
+            <p class="fw-semibold ">
+              Hello! I am Diksha Waghmare. Post-graduate in M.Sc. (Computer
+              Science) from RTMNU Nagpur. Completed certification course in
+              Python and Web-designing. Currently doing a Full-Stack
+              Development course from She Loves Code. Looking for an
+              opportunity to utilize my acquired skills and training to help
+              the company and my future peers grow.
+            </p>
+            <p class="text-left mt-3 mb-0"><b>Skills:</b></p>
+            <button type="button" class="btn btn-outline-primary button btn-md m-3 mt-0">
+              HTML
+            </button>
+            <button type="button" class="btn btn-outline-secondary button btn-md b-3">
+              CSS
+            </button>
+            <button type="button" class="btn btn-outline-info button btn-md m-3 mt-0">
+              JavaScript
+            </button>
+            <button type="button" class="btn btn-outline-success button btn-md m-3">
+              PYTHON
+            </button>
+            <button type="button" class="btn btn-outline-danger button btn-md m-3 mt-0">
+              C++
+            </button>
+            <br>
+              <a href="./Images/Diksha-Resume.pdf" target="_blank"
+                class="btn btn-primary btn-md">
+                <i class="bi bi-file-earmark-pdf-fill"></i> Resume</a>
+            
+          </div>
+        </div>
+     </div>
+
+    <!-- education part -->
+     <div class="container ">
+        <h2 class="text-center m-3 p-2 bg-info" id="edu"><i class="bi bi-mortarboard"></i> Education!</h2>
+        <!-- Masters card -->
+        <div class="card bg-light edu-row ">
+          <div class="row p-3">
+            <div class="col-8">
+              <h3>Master's Degree</h3>
+              <p>
+                2020 - 2022<br />CGPA-8.58<br />
+                Department of electronics and computer science,<br />
+                Nagpur, RTMN University.
+              </p>
+            </div>
+            <div class="col-4">
+              <img id="edu-img" src="./Images/RTMNU.jpg" />
+            </div>
+          </div>
+        </div>
+        <!-- bachlors card -->
+        <div class="card bg-light edu-row right-edu-card">
+          <div class="row p-3">
+            <div class="col-8">
+              <h3>Bachler's Degree</h3>
+              <p>
+                2017 - 2020<br />(68.03%)<br />
+                S. N. MOR College Tumsar, RTMN University
+              </p>
+            </div>
+            <div class="col-4">
+              <img id="edu-img" src="./Images/SNMOR.jpg" />
+            </div>
+          </div>
+        </div>
+        <!-- hsc card -->
+        <div class="card bg-light edu-row">
+          <div class="row p-3">
+            <div class="col-8">
+              <h3>XII (H.S.C)</h3>
+              <p>
+                2015 - 2017<br />(61.23%)<br />
+                MPL Neharu highschool & Jr. College Tumsar
+              </p>
+            </div>
+            <div class="col-4">
+              <img id="edu-img" src="./Images/12th-img.webp" />
+            </div>
+          </div>
+        </div>
+        <!-- ssc card -->
+        <div class="card edu-row bg-light right-edu-card" >
+          <div class="row p-3">
+            <div class="col-8 ">
+              <h3>X (S.S.C)</h3>
+              <p>
+                2014 - 2015<br />(80.80%)<br />
+                Saraswati Highschool Khapa
+              </p>
+            </div>
+            <div class="col-4">
+              <img id="edu-img" src="./Images/10th-img.webp" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- project part -->
+      <div class="container" >
+        <h2 class="text-center bg-info mt-3 p-2" id="pr"><i class="bi bi-code-square"></i> Projects</h2>
+        <div class="d-flex flex-column flex-sm-row justify-content-evenly project">
+
+        <div class="project-container mt-4 card p-2 " >
+          <div >
+            <img class="project-img rounded" src="./Images/img1.webp" alt="Project1" />
+          </div>
+          <div class="project-content">
+            <h4 class="mt-3">Mobile Web-designing!</h4>
+            <span class="badge rounded-pill bg-success">HTML</span>
+            <span class="badge rounded-pill bg-danger">CSS</span>
+            <h6 class="mt-2">
+              <i class="bi bi-calendar-check"></i> November 2022
+            </h6>
+            <p>
+              This Project is made during my She Loves Code classes as a
+              assignment using HTML and CSS.
+            </p>
+            <a href="https://github.com/DikshaWaghmare/SLC-day8-Assignment" target="_blank" class="btn btn-warning"
+              style="margin-left: 10px">
+              <i class="bi bi-github"></i> Source code</a>
+            <a href="./Images/mobile-slc.png" target="_blank" class="btn btn-primary" style="margin-left: 10px">
+              <i class="bi bi-laptop"></i></i> Demo</a>
+          </div>
+        </div>
+
+
+        <div class="project-container mt-4 card p-2" >
+          <div>
+            <img class="project-img rounded" src="./Images/img1.webp" alt="Project2" />
+          </div>
+          <div class="project-content">
+            <h4 class="mt-3">BMI-calculator!</h4>
+            <span class="badge rounded-pill bg-success">HTML</span>
+            <span class="badge rounded-pill bg-danger">CSS</span>
+            <span class="badge rounded-pill bg-primary">Js</span>
+            <h6 class="mt-2">
+              <i class="bi bi-calendar-check"></i> February 2022
+            </h6>
+            <p>
+              This Project is used to calculate Body Mass Index for any age person and it made using html, css and js.
+            </p>
+            <a href="https://github.com/DikshaWaghmare/BMI-calculator" target="_blank" class="btn btn-warning"
+              style="margin-left: 10px">
+              <i class="bi bi-github"></i> Source code</a>
+            <a href="./Images/bmi-calculator.png" target="_blank" class="btn btn-primary" style="margin-left: 10px">
+              <i class="bi bi-laptop"></i> Demo</a>
+          </div>
+        </div>
+
+
+        <div class="project-container mt-4 card p-2" >
+          <div>
+            <img class="project-img rounded" src="./Images/img1.webp" alt="Project1" />
+          </div>
+          <div class="project-content">
+            <h4 class="mt-3">Dice Roller!</h4>
+            <span class="badge rounded-pill bg-success">HTML</span>
+            <span class="badge rounded-pill bg-danger">CSS</span>
+            <span class="badge rounded-pill bg-primary">Js</span>
+            <h6 class="mt-2">
+              <i class="bi bi-calendar-check"></i> February 2022
+            </h6>
+            <p>
+              This project is made using Html, css and Js. By clicking on button we will get any random dice side.
+            </p>
+            <a href="https://github.com/DikshaWaghmare/Dice-Roller" target="_blank" class="btn btn-warning"
+              style="margin-left: 10px">
+              <i class="bi bi-github"></i> Source code</a>
+            <a href="./Images/dice-roller.png" target="_blank" class="btn btn-primary" style="margin-left: 10px">
+              <i class="bi bi-laptop"></i></i> Demo</a>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    <!-- Achivement part -->
+        <div class="container mt-5 fs-5">
+          <h2 class="text-center m-3 p-2 bg-info" id="Achivements"><i class="bi bi-flower2"></i></i> Extra Curricuram!</h2>
+
+          <div class=" mt-5 d-flex flex-column flex-sm-row justify-content-evenly">
+          <div class=" extra-curricuram-style">
+            <ul >
+              <h3><i class="bi bi-bag-heart-fill"></i> Achivements</h3>
+              <li>Participate in Maharashtra State Kabaddi championship Mahad, Mumbai university</li>
+              <li>Participate in poster presentation compitition, RTMNU </li>
+            </ul>
+          </div>
+
+          <div class=" extra-curricuram-style">
+            <ul>
+              <h3><i class="bi bi-balloon-heart-fill"></i> Hobbies</h3>
+              <li>Watching Sports</li>
+              <li>Playing Kabaddi</li>
+              <li>Watching Movies</li>
+            </ul>
+          </div>
+
+          <div class=" extra-curricuram-style">
+            <ul>
+              <h3><i class="bi bi-stars"></i> Personal Quality </h3>
+              <li>Eager to learn new things</li>
+              <li>Strategy planning and
+                implementation</li>
+              <li>Team work</li>
+              <li>Time Management</li>
+            </ul>
+          </div>
+        </div>
+
+        </div>
+      </div>
+
+  </main>
+  <footer class="bg-secondary text-white" >
+    <div class="container">
+    <div class="container d-flex flex-column flex-sm-row justify-content-evenly " >
+      <div class="footer-style">
+        <img src="./Images/my-img (1).jpg" class="footer-img"/>
+      </div>
+
+      <div style="margin-top: 50px;"> 
+        <ul style="list-style-type: none;">
+          <h4 class="mb-4">Quick Contact</h4>
+          <li>
+            <span class="fs-5"><i class="bi bi-telephone"></i> -7447221055</span></li>
+          <li>
+            <span class="fs-5"><i class="bi bi-envelope"></i> -dikshaw44@gmail.com</span></li>
+          </li>
+          <li>
+            <span class="fs-5"><i class="bi bi-house"></i> -Tumsar, Maharashtra</span></li>
+          </li>
+          <li></li>
+        </ul>
+      </div>
+    
+      <div class="footer-style" style="margin-top: 50px;">
+        
+        <ul style="list-style-type: none;">
+          <h4 class="mb-4">Social Media</h4>
+          <li><a href="http://www.linkedin.com/in/diksha-waghmare" target="_blank" class="m-3 text-white fs-5">
+            <i class="bi bi-linkedin"></i> Linkedin
+            </a></li>
+          <li> <a href="https://github.com/DikshaWaghmare" target="_blank" class="m-3 text-white fs-5">
+            <i class="bi bi-github"></i> GitHub</a></li>
+          <li><a href="https://www.instagram.com/dikshaw44/" target="_blank" class="m-3 text-white fs-5">
+            <i class="bi bi-instagram"></i> Instagram</a></li>
+          <li><a href="https://www.instagram.com/dikshaw44/" target="_blank" class="m-3 text-white fs-5">
+            <i class="bi bi-facebook"></i> Facebook</a></li>
+        </ul>
+      </div>
+      
+    </div>
+     <div>
+      <hr></hr>
+        <p style="font-size: 20px; text-align: center;" class="font-monospace mt-4"><i><b>"Perfection is not attainable, but if we chase perfection we can catch excellence."</b></i></p>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="./Js/script.js"></script>
+</body>
+
+</html>
