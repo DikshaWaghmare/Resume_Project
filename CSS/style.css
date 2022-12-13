@@ -86,7 +86,7 @@ body{
     background-size: cover;   
 } 
 footer{
-    height: 380px;
+    /* height: 380px; */
     background-image: linear-gradient(#5b5b8b,#9e4c4c);
 }
 /* .nav>a:hover{
